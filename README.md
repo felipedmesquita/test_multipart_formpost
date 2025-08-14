@@ -1,24 +1,11 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Typhoeus Multipart PUT
+This is an example rails app to demonstrate sending a PUT request with the multipart post behavior (setting headers, formating body) using Typhoeus.
+### Usage
+To set everything up and start the rails server:
+```bash
+bin/setup
+```
+Then, from another terminal:
+```bash
+ruby script.rb
+```
